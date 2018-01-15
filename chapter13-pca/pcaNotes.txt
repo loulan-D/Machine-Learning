@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 15 12:39:59 2018
+
+@author: loulan
+"""
+
+PCA : 按照数据方差最大方向调整数据的主成份分析降维方法
+
+PCA Principal Component Analysis  
+
+Numpy 中求解特征值与特征向量的模块 np.linalg.eig()
+
+实现PCA伪代码：将数据转化为前N个主成分
+去除平均值
+计算协方差矩阵
+计算协方差矩阵的特征值与特征向量
+将特征值从大到小排序
+保留最上面的N个特征向量
+将数据转换到N个特征向量的新空间中
+
+
+notes:
+
